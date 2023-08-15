@@ -6,8 +6,6 @@
 .cuadrado,
 .cuadrado-activo {
   /* background-color: blue; */
-  width: 43.75px;
-  height: 43.75;
   border: 1px solid black;
 }
 .cuadrado-activo {
@@ -17,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 100vh;
 }
 .container {
