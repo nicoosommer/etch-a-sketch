@@ -18,6 +18,11 @@ body {
   align-items: center;
   height: 100vh;
 }
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 .container {
   box-sizing: content-box;
   display: flex;
@@ -25,4 +30,26 @@ body {
   width: 700px;
   height: 700px;
   border: 2px solid black;
+}
+.slider {
+  background-color: #ffffff;
+  width: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+input[type="range"] {
+  position: relative;
+  width: 80%;
+  height: 8px;
+  border-radius: 8px;
+  outline: none;
+  background-color: #d5d5d5;
+}
+.slider-value {
+  background-color: rgb(32, 108, 223);
+  padding: 5px;
+  border-radius: 7px;
 }
