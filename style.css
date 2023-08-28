@@ -9,7 +9,7 @@
   border: 1px solid black;
 }
 .cuadrado-activo {
-  background-color: blue;
+  background-color: rgb(83, 80, 38);
 }
 body {
   display: flex;
@@ -31,18 +31,41 @@ body {
   height: 700px;
   border: 2px solid black;
 }
+.izq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .slider {
   background-color: #ffffff;
   width: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 30px 20px;
+  padding: 20px 10px;
   border-radius: 5px;
+}
+.confirm {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(32, 108, 223, 0.8);
+  font-size: medium;
+  color: rgb(196, 205, 212);
+}
+.confirm:hover {
+  cursor: pointer;
+  border: 2px solid rgb(190, 178, 6);
+  color: whitesmoke;
+}
+.reset:hover {
+  background-color: black;
 }
 input[type="range"] {
   position: relative;
-  width: 80%;
+  width: 70%;
   height: 8px;
   border-radius: 8px;
   outline: none;
