@@ -11,7 +11,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .cuadrado {
-  background-color: rgb(247, 133, 247);
+  background-color: rgb(255, 255, 255);
 }
 .cuadrado-activo {
   background-color: rgb(73, 148, 50);
